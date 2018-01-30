@@ -13,7 +13,7 @@ namespace OpenCVApp {
 		
 		ZeroMemory(&ofn, sizeof(ofn));
 		ofn.lStructSize = sizeof(OPENFILENAME);
-		ofn.lpstrFilter = "動画ファイル(*.avi,*.mp4)\0*.avi;*.mp4\0";
+		ofn.lpstrFilter = "動画ファイル(*.avi,*.mp4,*.wmv)\0*.avi;*.mp4;*.wmv\0";
 		ofn.lpstrFile = nameBuff;
 		ofn.nMaxFile = MAX_PATH;
 		ofn.Flags = OFN_FILEMUSTEXIST | OFN_NOCHANGEDIR;
