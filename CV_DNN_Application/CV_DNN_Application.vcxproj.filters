@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="UserCommunicator.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Paths.cpp">
+      <Filter>utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="UserCommunicator.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Paths.h">
+      <Filter>utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="utility">
+      <UniqueIdentifier>{930dc97e-3b93-4689-a5c6-622370fc6a91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
